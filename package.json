@@ -1,0 +1,25 @@
+{
+  "name": "@borgenfalkskott/fika-box",
+  "version": "0.0.1",
+  "description": "A delicious lightbox.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Borgenfalk-Skott/fika-box.git"
+  },
+  "keywords": [
+    "lightbox",
+    "gallery",
+    "image",
+    "zoom"
+  ],
+  "author": "Borgenfalk Skott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Borgenfalk-Skott/fika-box/issues"
+  },
+  "homepage": "https://github.com/Borgenfalk-Skott/fika-box#readme"
+}
