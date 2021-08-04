@@ -7,8 +7,6 @@ const fikaBox = {
       document.querySelectorAll(".wp-block-gallery")
     );
 
-    console.log(galleries);
-
     if (galleries) {
       // loop over every gallery
       for (let i = 0; i < galleries.length; i++) {
@@ -46,7 +44,6 @@ const fikaBox = {
 
               // set current gallery item index to gallery obj
               galleriesObj[currentGalleryID].current = currentItemIndex;
-              console.log(galleriesObj);
 
               // target child img element
               const thumb = this.querySelector("img");
@@ -57,15 +54,10 @@ const fikaBox = {
                   ? thumb.getAttribute("data-full-url")
                   : "";
 
-                console.log(mediaLink);
-
                 const currentImg = new Image();
                 currentImg.src = mediaLink;
 
                 currentImg.addEventListener("load", function () {
-                  console.log(currentImg.width);
-                  console.log(currentImg.height);
-
                   const isPortrait =
                     currentImg.height > currentImg.width ? true : false;
 
